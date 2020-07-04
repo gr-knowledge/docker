@@ -38,17 +38,45 @@ docker container start
 docker container exec
 ```
 
-> Testar se docker está instalado
+## Modo interativo:
+
+
+> Lista processos
 ```propertier
-docker
+ps
 ```
 
-> Testar se docker está instalado
+> Lista containers criados
 ```propertier
-docker
+ls -ai
 ```
 
-> Testar se docker está instalado
+> Lista de container ativos neste momento.
 ```propertier
-docker
+docker container ps
 ```
+
+> Lista de todos container idependente do status.
+```propertier
+docker container ps -a
+```
+
+> Executa container e remove da lsita
+```propertier
+docker container run --rm hello-world
+```
+
+***Sempre que Run é chamado é criado um novo container***
+
+> Entra no terminal do container
+```propertier
+docker container run -it debian bash
+```
+
+> Renomear container e não deixar criar novamente mesmo nome.
+```propertier
+docker container run --name myTeste hello-world
+```
+
+
+# Aula 22
