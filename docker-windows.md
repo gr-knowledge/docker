@@ -7,9 +7,9 @@ https://www.youtube.com/watch?v=g4HKttouVxA&feature=youtu.be
 https://github.com/codeedu/wsl2-docker-quickstart
 
 
-### Resumo
+## Resumo
 
-> Executar no terminal do Windows como administrador
+### Executar no terminal do Windows como administrador
 ```properties
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
