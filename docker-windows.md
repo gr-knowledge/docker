@@ -17,15 +17,15 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-> Atualizar o kernel do WSL 2 Linux
+### Atualizar o kernel do WSL 2 Linux  
 https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel
 
-> Atribua a versão default do WSL para a versão 2
+### Atribua a versão default do WSL para a versão 2
 ```properties
 wsl --set-default-version 2
 ```
 
-> Escolha sua distribuição Linux no Windows Store
+### Escolha sua distribuição Linux no Windows Store
 
 > *Ao iniciar o Linux instalado, você deverá criar um nome de usuário que poderá ser o mesmo da sua máquina e uma senha, este será o usuário root da sua instância WSL.*
 
