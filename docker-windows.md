@@ -29,7 +29,7 @@ wsl --set-default-version 2
 
 > *Ao iniciar o Linux instalado, você deverá criar um nome de usuário que poderá ser o mesmo da sua máquina e uma senha, este será o usuário root da sua instância WSL.*
 
-> Se você já tiver o WSL 1 na máquina e acabou de instalar a versão 2, pode-se converter sua distribuição Linux WSL 1 para WSL 2, execute o comando com o PowerShell:
+> Se você já tiver o WSL 1 na máquina e acabou de instalar a versão 2, pode-se converter sua distribuição Linux WSL 1 para WSL 2, execute o comando com o **PowerShell**:
 ```properties
 wsl --set-version "ubuntu" 2
 ```
