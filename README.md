@@ -15,6 +15,31 @@ Durante a instalação aceitar um "dispositivo USB"
 docker
 ```
 
+## Docker container
+
+| Comando | Descritivo |
+|-|-|
+| container ls | Lista containes ativos |
+| container ls -a | Lista containes que estão rodando e parados|
+| container ps | Lista containes em processo |
+| container run --name my-container | Executa container |
+| container start my-container | Inicia container |
+| container stop my-container | Para container |
+| container restart my-container | Reiniciar container |
+| container logs my-container | Mostra logs|
+| container inspect my-container | Informações detalhadas sobre o container |
+| container exec my-container uname -or| Executa comando no contairner |
+| container rm my-container | Remove container |
+
+## Docker image
+| Comando | Descritivo |
+|-|-|
+| container ls | Lista container |
+| image ls | Lista imagens |
+| volume ls | Lista volumes |
+
+
+
 ### Hello Word  
 > Se imagem não existir, irá baixar... Se rodar o comando novamente será mais rápido, já que a imagem já foi baixada.  
 > ***Irá exibir no terminal "Hello from Docker!"***
