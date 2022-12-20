@@ -21,9 +21,11 @@ docker
 |-|-|
 | container ls | Lista containes ativos |
 | container ls -a | Lista containes que estão rodando e parados|
-| container ps | Lista containes em processo |
+| container ps | Lista containes ativos |
+| container ps -a | Lista containes ativos ou parados|
 | container run --name my-container | Executa container |
 | container start my-container | Inicia container |
+| container start -ai my-container | Inicia container com acesso ao terminal |
 | container stop my-container | Para container |
 | container restart my-container | Reiniciar container |
 | container logs my-container | Mostra logs|
@@ -36,8 +38,27 @@ docker
 |-|-|
 | container ls | Lista container |
 | image ls | Lista imagens |
+| image rm | remove imagem |
 | volume ls | Lista volumes |
 
+## Sinalizadores
+| Sinalizador | Descritivo |
+|-|-|
+| --name my-container | Nomear |
+| -p 8080:80 |Portas |
+| -v $(pwd)/html:/usr/share/nginx/html | Volume |
+| volume ls | Lista volumes |
+| -d | Container em backuground |
+| --rm | Remove o container após ser executado |
+| -it | Acesso ao terminal do container ao ser criado (run) |
+| -ai | Acesso ao terminal do container ao ser inicializado (start) | 
+
+
+# Comandos linux
+| Comando | Descritivo |
+|-|-|
+| touch my-file.txt | Cria arquivo |
+| mkdir my-folder | Cria Diretório |
 
 
 ### Hello Word  
